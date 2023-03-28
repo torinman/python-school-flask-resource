@@ -38,10 +38,10 @@ padding: 7px;
 }
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-background-image: url("0200.jpg");
+background-image: url("bg.jpg");
 }
 body {
-background-image: url("0020.jpg");
+background-image: url("bg.jpg");
 }
 simple a {
 display: block;
