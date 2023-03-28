@@ -35,3 +35,23 @@ def med_diseases():
 @app.route('/jobs')
 def job():
     return flask.render_template("jobs.html")
+
+@app.route('/jobs/general')
+def job_general():
+    return flask.render_template("job-general.html")
+
+@app.route('/jobs/other')
+def job_other():
+    return flask.render_template("job-other.html")
+
+@app.route('/jobs/conditions')
+def job_conditions():
+    return flask.render_template("job-conditions.html")
+
+@app.route('/jobs/pay')
+def job_pay():
+    return flask.render_template("job-pay.html")
+
+@app.route('/jobs/ages')
+def job_ages():
+    return flask.render_template("job-ages.html")
