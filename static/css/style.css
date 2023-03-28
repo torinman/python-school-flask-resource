@@ -46,8 +46,9 @@ background-image: url("0020.jpg");
 simple a {
 display: block;
  color: brown;
-border: 2px #070 outset;
-text-align: left;
+border: 2px #080 outset;
+width: 17%;
+float: left;
 border-radius: 5px;
  padding: 5px;
  text-decoration: none;
