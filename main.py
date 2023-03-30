@@ -1,4 +1,7 @@
 import flask
+import os
+
+
 
 app = flask.Flask(__name__)
 
@@ -36,11 +39,11 @@ def med_diseases():
 def job():
     return flask.render_template("jobs.html")
 
-@app.route('/jobs/general')
+@app.route('/jobs/service')
 def job_general():
     return flask.render_template("job-general.html")
 
-@app.route('/jobs/other')
+@app.route('/jobs/shortage')
 def job_other():
     return flask.render_template("job-other.html")
 

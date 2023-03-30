@@ -56,3 +56,6 @@ border-radius: 5px;
 simple a:active{
 border: 2px #070 inset
 }
+img {
+border-radius: 7px
+}
